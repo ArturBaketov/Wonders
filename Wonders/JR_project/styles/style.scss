@@ -1,0 +1,27 @@
+@import 'components/header';
+@import 'components/reset';
+@import 'components/main';
+@import 'components/achievment';
+@import 'components/gallery';
+@import 'components/download';
+@import 'components/footer';
+@import 'components/faq';
+@import 'components/font-face';
+@import 'components/vars';
+
+
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hidden-height{
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+body {
+    font-family: var(--site-font-family);
+}
