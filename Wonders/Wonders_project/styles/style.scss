@@ -6,10 +6,7 @@
 @import 'components/download';
 @import 'components/footer';
 @import 'components/faq';
-@import 'components/font-face';
-@import 'components/vars';
-@import 'component/calendar';
-
+@import 'components/calendar';
 
 .wrapper {
     max-width: 1440px;
@@ -23,6 +20,19 @@
     padding: 0;
 }
 
-body {
-    font-family: var(--site-font-family);
+.toast {
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: white;
+
+    &--error {
+       background-color: red;
+    }
+
+    &--success {
+       background-color: green;
+    }
 }
