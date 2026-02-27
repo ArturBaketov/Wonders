@@ -3,11 +3,13 @@ button{
     width: 49%;
     box-sizing: border-box;
     background-color: #0578FF;
+    color: white;
 
     &:hover {
         background-color: aqua;
     }
 }
+
 .daysTitle{
     display: flex;
     width: 100%;
